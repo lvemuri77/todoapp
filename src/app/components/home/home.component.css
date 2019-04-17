@@ -1,0 +1,29 @@
+/*Google fonts*/
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import "~@angular/material/core/theming/prebuilt/deeppurple-amber.css";
+body {
+  padding: 0;
+  margin: 0;
+}
+form {
+  max-width: 25em;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #eaeaea;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.list-item {
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-left: 4px solid #f97300;
+}
+.delete-button {
+  float: right;
+}
